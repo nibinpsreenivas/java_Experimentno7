@@ -1,7 +1,7 @@
 import java.util.*;
  class thread1 extends Thread
   { 
-     //System.out.println("the odd numbers are:");
+     
       public void run()
        {
          for(int i=1;i<100;i++)
@@ -11,7 +11,7 @@ import java.util.*;
   }
   class thread2 extends Thread
   { 
-     //System.out.println("the even numbers are:");
+     
       public void run()
        {
          for(int i=1;i<100;i++)
